@@ -1,0 +1,258 @@
+@media (max-width: 768px) {
+    .section-1 {
+        width: 100% !important;
+        order: 2;
+    }
+    .section-2 {
+        width: 100% !important;
+        order: 1;
+    }
+    .section-3 {
+        width: 100% !important;
+        order: 3;
+    }
+    .section-4 {
+        width: 100% !important;
+        order: 4;
+    }
+    .section-5 {
+        width: 100% !important;
+        order: 6;
+    }
+    .section-6 {
+        width: 100% !important;
+        order: 5;
+    }
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 150px;
+        height: 300px;
+        .left{
+            text-align: center;
+            justify-content: center;
+            width: 90%;
+            margin-bottom: 30px;
+            ul{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                li{
+                    font-size: 1.3rem;
+                }
+            }
+            h3 {
+                font-size: 1rem;
+            }
+        }
+        .right {
+            width: 100%;
+            justify-content: center;
+        }
+    }
+    .started {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        .content{
+            width: 90%;
+            h1 {
+                font-size: 2rem;
+            }
+            .content-bottom{
+                display: flex;
+                flex-wrap: wrap;
+                input {
+                    width: 95%;
+                }
+                .reg {
+                    width: 95%;
+                    margin-top: -20px;
+                }
+    
+            }
+        }
+    }
+  }
+
+@media (max-width: 425px){
+    header {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        .content{
+            width: 90%;
+            h1 {
+                font-size: 2rem;
+            }
+            .content-bottom{
+                display: flex;
+                flex-wrap: wrap;
+                input {
+                    width: 95%;
+                }
+                .reg {
+                    width: 95%;
+                    margin-top: 10px;
+                }
+
+            }
+        }
+    }
+    .started {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        .content{
+            width: 90%;
+            h1 {
+                font-size: 2rem;
+            }
+            .content-bottom{
+                display: flex;
+                flex-wrap: wrap;
+                input {
+                    width: 95%;
+                }
+                .reg {
+                    width: 95%;
+                    margin-top: -20px;
+                }
+    
+            }
+        }
+    }
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 150px;
+        height: 300px;
+        .left{
+            text-align: center;
+            justify-content: center;
+            width: 90%;
+            margin-bottom: 30px;
+            ul{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                li{
+                    font-size: 1.3rem;
+                }
+            }
+            h3 {
+                font-size: 1rem;
+            }
+        }
+        .right {
+            width: 100%;
+            justify-content: center;
+        }
+    }
+    
+}
+
+@media (max-width: 320px){
+    .section-1 {
+        width: 100% !important;
+        order: 2;
+    }
+    .section-2 {
+        width: 100% !important;
+        order: 1;
+    }
+    .section-3 {
+        width: 100% !important;
+        order: 3;
+    }
+    .section-4 {
+        width: 100% !important;
+        order: 4;
+    }
+    .section-5 {
+        width: 100% !important;
+        order: 6;
+    }
+    .section-6 {
+        width: 100% !important;
+        order: 5;
+    }
+    header {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        .content{
+            h1 {
+                font-size: 2rem;
+            }
+            .content-bottom{
+                display: flex;
+                flex-wrap: wrap;
+                input {
+                    width: 95%;
+                }
+                .reg {
+                    width: 95%;
+                    margin-top: 10px;
+                }
+
+            }
+        }
+    }
+    .started {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        .content{
+            width: 90%;
+            h1 {
+                font-size: 2rem;
+            }
+            .content-bottom{
+                display: flex;
+                flex-wrap: wrap;
+                input {
+                    width: 95%;
+                }
+                .reg {
+                    width: 95%;
+                    margin-top: -20px;
+                }
+    
+            }
+        }
+    }
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 150px;
+        height: 300px;
+        .left{
+            text-align: center;
+            justify-content: center;
+            width: 90%;
+            margin-bottom: 30px;
+            ul{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                li{
+                    font-size: 1.3rem;
+                }
+            }
+            h3 {
+                font-size: 1rem;
+            }
+        }
+        .right {
+            width: 100%;
+            justify-content: center;
+        }
+    }
+    
+}
+
+
+
+
+  

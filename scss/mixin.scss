@@ -1,0 +1,12 @@
+@mixin flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@mixin header {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    position: relative;
+}

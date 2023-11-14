@@ -1,0 +1,50 @@
+.about{
+    @include flex;
+    width: 100%;
+    .content {
+      margin: auto;
+      color: rgb(2, 2, 2);
+      z-index: 1;
+      padding-top: 150px;
+      padding-bottom: 150px;
+      max-width: 800px;
+      flex-wrap: wrap;
+    }
+    .content p{
+      margin-top: 10px;
+      font-size: 2rem;
+      color: gray;
+    }
+    .content h2{
+      font-size: 2.5rem;
+    }
+    .section-1{
+      width: 50%;
+      @include flex;
+    }
+    .section-2{
+      @include flex;
+      width: 50%;
+      background-image: $showcase-1;
+      background-size: cover;
+      background-position: center;
+    }
+    .section-3{
+      width: 50%;
+      background-image: $showcase-2;
+      background-size: cover;
+      background-position: center;
+    }
+    .section-4{
+      width: 50%;
+    }
+    .section-5{
+      width: 50%;
+    }
+    .section-6{
+      width: 50%;
+      background-image: $showcase-3;
+      background-size: cover;
+      background-position: center;
+    }
+  }
